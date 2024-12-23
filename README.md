@@ -41,10 +41,6 @@ output reg Q;
 
 output reg Qbar;
 
-initial Q=0;
-
-initial Qbar=1;
-
 always @(posedge clk)
 
 begin
